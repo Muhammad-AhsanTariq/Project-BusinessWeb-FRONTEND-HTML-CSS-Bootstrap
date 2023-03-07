@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:wght@500&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/0dc070f152.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container-fluid position-fixed nav-color pt-3 pb-1">
+            <!-- Nav Bar -->
+            <!-- <nav class="navbar bg-light navbar-expand-lg navbar-light"> -->
+            <nav class=" nav navbar navbar-expand-lg navbar-light fw-medium  pt-0">
+                <div class="container d-flex align-items-center justify-content-lg-between position-relative">
+                    <img src="https://quiety.themetags.com/assets/img/logo-color.png" alt="logoImg">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar">
+                        <ul class="navbar-nav col-12 col-md-auto justify-content-center main-menu">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item dropdown mx-2">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Resources</a>
+                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                    <div class="dropdown-grid rounded-custom width-full-3">
+                                        <div class="dropdown-grid-item list-unstyled px-3">
+                                            <h6 class="drop-heading">Reusable Section</h6>
+
+                                            <a href="#" class="dropdown-link">
+
+                                                <div class="drop-title">Testimonials</div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+
+                                                <div class="drop-title">Call to Action</div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+
+                                                <div class="drop-title">Tab Style</div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+
+                                                <div class="drop-title">Services</div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+
+                                                <div class="drop-title">Header</div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+
+                                                <div class="drop-title">Help Center</div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Prices</a>
+                            </li>
+
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Company</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse justify-content-end me-5 mt-2" id="navbar">
+
+                        <a class="nav-link d-inline ps-2" href="#">Sign In</a>
+                        <a class="btn btn-primary d-inline ms-3" href="#">Get Started</a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="body">
+        <div class="container position-relative mt-5 pt-5">
+            <div class="row align-items-center justify-content-between pt-5">
+                <div class="col-xl-5 col-lg-5">
+
+                    <div class=" text-center text-xl-start text-lg-start">
+                        <h1 class="fw-bold display-5 ">Powerful Solutions for Your Business</h1>
+                        <p class="lead fs-4 text-secondary">Proactively coordinate quality quality vectors vis-a-vis
+                            supply chains
+                            client-centric web services.</p>
+                        <div
+                            class="pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block text-center">
+                            <form id="subscribe-form" name="email-form" class="d-block d-lg-flex d-md-flex">
+                                <input type="email" class="form-control me-2" name="Email" data-name="Email"
+                                    placeholder="Enter Your Email Address" id="email-address" required="">
+                                <input type="submit" value="Subscribe" data-wait="Please wait..."
+                                    class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                            </form>
+                            <ul class="nav subscribe-feature-list mt-3">
+                                <li class="nav-item">
+                                    <span class="ms-0"><i class="far fa-check-circle text-primary me-2"></i>Free 14-day
+                                        trial</span>
+                                </li>
+                                <li class="nav-item">
+                                    <span class="ms-4"><i class="far fa-check-circle text-primary me-2"></i>No credit
+                                        card required</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6  text-center">
+
+
+                    <!--animated shape start-->
+                    <div class="container-fluid mb-5">
+
+                        <img src="	https://quiety.themetags.com/assets/img/color-shape/image-1.svg" alt="shape"
+                            class="img-fluid shape-1 d-none d-lg-block d-xl-block">
+
+
+                        <img src="https://quiety.themetags.com/assets/img/color-shape/feature-2.svg" alt="shape"
+                            class="img-fluid shape-2 d-none d-lg-block d-xl-block">
+
+
+                        <img src="https://quiety.themetags.com/assets/img/color-shape/feature-3.svg" alt="shape"
+                            class="img-fluid shape-3 d-none d-lg-block d-xl-block">
+
+
+                        <!--animated shape end-->
+
+
+
+                        <img src="https://quiety.themetags.com/assets/img/screen/phone-screen.png" alt="image"
+                            class="phone-screen img-fluid d-none d-lg-block d-xl-block">
+
+
+                        <img src="https://quiety.themetags.com/assets/img/screen/mac-screen.png" alt="image"
+                            class="mac-screen img-fluid position-relative  ms-lg-5 mb-lg-5 w-100">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="logo">
+        <div class="container-fluid text-center ptb-120">
+            <div class="row mb-sm-0 mb-md-4 mb-lg-4">
+                <div class="col-sm-12">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+                    <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                        class="mx-3 logo-img">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cards">
+        <div class="container-fluid bg-light py-5">
+
+            <div class="row justify-content-center pt-5 ">
+                <div class="col-md-10 col-lg-6 text-center">
+                    <div class="section-heading text-center">
+                        <h2 class="fw-bold display-6 mb-3">Our Customers Get Results</h2>
+                        <p class="text-secondary fw-medium lh-lg">Progressively deploy market positioning catalysts for
+                            change and technically sound.
+                            Authoritatively with backward-compatible
+                            e-services. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-group text-center mb-5 container-fluidr">
+                <div class="card p-3 bg-dark text-white mx-3 ">
+                    <div class="card-body">
+                        <h3 class="display-5 fw-bold mb-4"><i
+                                class="fa-sharp fa-solid fa-clock-rotate-left text-warning me-2"></i> 10x
+                        </h3>
+                        <p class="card-text">Embrace distinctive best practices after B2B syndicate backend internal or
+                            whereas edge
+                            process improvements.</p>
+                        <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                            class="mx-4 logo-img ">
+                    </div>
+                </div>
+                <div class="card p-3 bg-dark text-white mx-3">
+                    <div class="card-body ">
+                        <h3 class="display-5 fw-bold mb-4"><i class="far fa-paper-plane text-warning me-2"></i> 5k
+                        </h3>
+                        <p class="card-text">Rapidiously embrace distinctive best practices B2B syndicate backend
+                            internal or whereas
+                            process improvements.</p>
+                        <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                            class="mx-4 logo-img">
+                    </div>
+                </div>
+                <div class="card p-3 bg-dark text-white mx-3 ">
+                    <div class="card-body">
+                        <h3 class="display-5 fw-bold mb-4"><i class="fa-solid fa-bullseye text-warning me-2"></i>
+                            95%</h3>
+                        <p class="card-text">Distinctive best practices after B2B syndicate internal or whereas
+                            bleeding-edge process
+                            improvements.</p>
+                        <img src="https://quiety.themetags.com/assets/img/clients/client-logo-1.svg" alt=""
+                            class="mx-4  logo-img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section-two ptb-120 mx-3 mx-md-0 mx-lg-0 mx-xl-0">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-heading">
+                        <h5 class="h5 text-primary fw-semibold">Features</h5>
+                        <h2 class="fw-bold display-6">Powerful Solutions for Your Business Needs</h2>
+                        <p class="text-secondary">Quickly incubate functional channels with multidisciplinary
+                            architectures.
+                            Authoritatively
+                            fabricate intermandated formulate exceptional innovation strategic theme areas whereas
+                            business e-business.</p>
+                        <ul class="list-unstyled mt-5">
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-box bg-primary rounded me-4">
+                                    <i class="fas fa-bezier-curve  fs-5 m-3 text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">Pixel Perfect Design</h3>
+                                    <p class="text-secondary">Progressively foster enterprise-wide systems whereas
+                                        equity invested
+                                        web-readiness harness installed.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-box bg-danger rounded me-4">
+                                    <i class="fas fa-fingerprint fs-5 m-3 text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">Unique &amp; Minimal Design</h3>
+                                    <p class="text-secondary">Dramatically administrate progressive metrics without
+                                        error-free globally
+                                        simplify standardized.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-7">
+                    <div
+                        class="position-relative d-flex flex-column  justify-content-center align-items-center align-items-lg-start align-items-md-start align-items-xl-start justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                        <ul class="img-overlay-list list-unstyled position-absolute">
+                            <li
+                                class="d-flex align-items-center bg-white rounded shadow-sm p-3 mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+                                <i class="fas fa-check fs-5 p-1 me-3 bg-primary text-white rounded-circle"></i>
+                                <h6 class="mb-0">Create a Free Account</h6>
+                            </li>
+                            <li
+                                class="d-flex align-items-center bg-white rounded shadow-sm p-3 mb-2 mb-md-0 mb-lg-0  mb-xl-0">
+                                <i class="fas fa-check fs-5 p-1 me-3 bg-primary text-white rounded-circle"></i>
+                                <h6 class="mb-0">Install Our Tracking Pixel</h6>
+                            </li>
+                            <li class="d-flex align-items-center bg-white rounded shadow-sm p-3">
+                                <i class="fas fa-check fs-5 p-1 me-3 bg-primary text-white rounded-circle"></i>
+                                <h6 class="mb-0">Start Tracking your Website</h6>
+                            </li>
+                        </ul>
+                        <img src="https://quiety.themetags.com/assets/img/feature-img3.jpg" alt="feature image"
+                            class="img-fluid  rounded-custom">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section two-bg-dark-light ptb-120 ">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 col-md-6 mb-5">
+                    <div class="image-wrap">
+                        <img src="https://quiety.themetags.com/assets/img/dashboard-img.png" alt="feature img"
+                            class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="feature-content-wrap">
+                        <h5 class="text-primary">Advanced Features</h5>
+                        <h2 class="fw-bold display-6">Actionable Sale Reports to Grow your Business</h2>
+                        <p>Intrinsicly network transparent services whereas B2C ROI. Globally create installed base
+                            quality vectors after innovative experiences. Competently facilitate innovative human
+                            business. </p>
+                        <ul class="list-unstyled mt-5">
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-box bg-primary rounded me-4">
+                                    <i class="fas fa-bezier-curve fs-5 m-3 text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">Pixel Perfect Design</h3>
+                                    <p>Progressively foster enterprise-wide systems whereas equity invested
+                                        web-readiness harness installed.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start mb-4">
+                                <div class="icon-box bg-danger rounded me-4">
+                                    <i class="fas fa-fingerprint fs-5 m-3 text-white"></i>
+                                </div>
+                                <div class="icon-content">
+                                    <h3 class="h5">Unique &amp; Minimal Design</h3>
+                                    <p>Dramatically administrate progressive metrics without error-free globally
+                                        simplify standardized.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-process ptb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-heading text-center">
+                        <h4 class="h5 text-primary">Process</h4>
+                        <h2 class="fw-bold display-6">We Follow Our Work Process</h2>
+                        <p>Enthusiastically engage cross-media leadership skills for alternative experiences.
+                            Proactively drive vertical systems than intuitive architectures.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-between mt-5">
+                <div class="col-lg-5 col-md-12 order-1 order-lg-0">
+                    <div class="img-wrap">
+                        <img src="	https://quiety.themetags.com/assets/img/office-img-1.jpg" alt="work process"
+                            class="img-fluid rounded-custom">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-0 order-lg-1">
+                    <ul class="work-process-list list-unstyled">
+                        <li class="d-flex align-items-start mb-4">
+                            <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                <i class="fas fa-folder-tree fa-2x"></i>
+
+                            </div>
+                            <div class="icon-content">
+                                <span class="text-primary h6">Step 1</span>
+                                <h3 class="h5 mb-2">Research and Content Planing</h3>
+                                <p>Progressively foster enterprise-wide systems whereas equity invested
+                                    web-readiness harness installed base bandwidth.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                <i class="fas fa-bezier-curve fa-2x"></i>
+                            </div>
+                            <div class="icon-content">
+                                <span class="text-primary h6">Step 2</span>
+                                <h3 class="h5 mb-2">Publishing and Execution</h3>
+                                <p>Dramatically administrate progressive metrics without error-free globally simplify
+                                    standardized alignments plagiarize distributed.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4">
+                            <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                <i class="fas fa-layer-group fa-2x"></i>
+                            </div>
+                            <div class="icon-content">
+                                <span class="text-primary h6">Step 3</span>
+                                <h3 class="h5 mb-2">Product Prototyping</h3>
+                                <p>Interactively whiteboard transparent testing procedures before
+                                    bricks-and-clicks initiatives administrate competencies.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-start mb-4 mb-lg-0">
+                            <div class="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                                <i class="fas fa-truck fa-2x"></i>
+                            </div>
+                            <div class="icon-content">
+                                <span class="text-primary h6">Step 4</span>
+                                <h3 class="h5 mb-2">Deliver the Final Product</h3>
+                                <p>Dramatically plagiarize distributed progressive metrics without error-free globally
+                                    simplify
+                                    standardized alignments.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section bg-dark text-white  ptb-120">
+        <div class="container">
+            <div class="row justify-content-center align-content-center">
+                <div class="col-md-10 col-lg-6">
+                    <div class="section-heading text-center">
+                        <h4 class="h5 text-warning text-primary fs-4">Testimonial</h4>
+                        <h2 class="fw-bold display-6 text-white">What They Say About Us</h2>
+                        <p>Uniquely promote adaptive quality vectors rather than stand-alone e-markets. pontificate
+                            alternative architectures whereas iterate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="position-relative w-100 z-0 ">
+                        <div class="swiper testimonial-swiper">
+                            <div class="swiper-wrapper">
+
+
+                                <div class="swiper-slide">
+                                    <div class="bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="https://quiety.themetags.com/assets/img/testimonial/quotes-dot.svg"
+                                            alt="quotes" width="100"
+                                            class="img-fluid position-absolute left-0 top-0  p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="https://quiety.themetags.com/assets/img/testimonial/3.jpg"
+                                                class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Mr.Rupan Oberoi</h6>
+                                                <small>Founder and CEO at Amaara Herbs</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>The Best Template You Got to Have it!</h6>
+                                            Globally network long term high impact schemas
+                                            cross-media infrastructures rather than ethical core competencies.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="https://quiety.themetags.com/assets/img/testimonial/quotes-dot.svg"
+                                            alt="quotes" width="100"
+                                            class="img-fluid position-absolute left-0 top-0  p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="   https://quiety.themetags.com/assets/img/testimonial/3.jpg"
+                                                class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Mr.Rupan Oberoi</h6>
+                                                <small>Founder and CEO</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>Amazing Quiety template!</h6>
+                                            Appropriately negotiate interactive niches rather than parallel strategic
+                                            theme premium total linkage areas.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="https://quiety.themetags.com/assets/img/testimonial/quotes-dot.svg"
+                                            alt="quotes" width="100"
+                                            class="img-fluid position-absolute left-0 top-0  p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="   https://quiety.themetags.com/assets/img/testimonial/3.jpg"
+                                                class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Joan Dho</h6>
+                                                <small>Founder and CTO</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>Best Template for SAAS Company!</h6>
+                                            Dynamically create innovative core competencies with effective best
+                                            practices promote innovative infrastructures.
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-custom-light text-white  p-5 rounded-custom position-relative">
+                                        <img src="https://quiety.themetags.com/assets/img/testimonial/quotes-dot.svg"
+                                            alt="quotes" width="100"
+                                            class="img-fluid position-absolute left-0 top-0  p-3">
+                                        <div class="d-flex mb-32 align-items-center">
+                                            <img src="   https://quiety.themetags.com/assets/img/testimonial/3.jpg"
+                                                class="img-fluid me-3 rounded" width="60" alt="user">
+                                            <div class="author-info">
+                                                <h6 class="mb-0">Ranu Mondal</h6>
+                                                <small>Lead Developer</small>
+                                            </div>
+                                        </div>
+                                        <blockquote>
+                                            <h6>It is undeniably good!</h6>
+                                            Rapidiously supply client-centric e-markets and maintainable processes
+                                            progressively extend process-centric portals engineer
+                                        </blockquote>
+                                        <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+
+            });
+
+        </script>
+
+    </section>
+
+    <section class="integration-section bg-light ptb-120 mx-0 mx-sm-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-lg-between">
+                <div class="col-lg-7 col-md-12">
+                    <div class="section-heading">
+                        <h5 class="h5 text-primary fw-semibold">Integration</h5>
+                        <h2 class="fw-bold display-6">Integration with Most Powerful Platforms</h2>
+                        <p>Dynamically pursue reliablet convergence rather than 24/7 process improvements
+                            develop end-to-end customer service impactful action items and web-enabled markets.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="text-lg-end mb-5 mb-lg-0">
+                        <a href="integrations.html" class="btn btn-primary">View All Integrations</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 px-2">
+                    <div class="integration-wrapper position-relative w-100">
+                        <ul class="integration-list list-unstyled mt-5">
+                            <li>
+                                <div class="single-integration">
+                                    <img src="https://quiety.themetags.com/assets/img/integations/airbnb.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/figma.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="https://quiety.themetags.com/assets/img/integations/facebook.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/sales-force.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="https://quiety.themetags.com/assets/img/integations/atlassian.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/dropbox-2.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/dynamic-365.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/erecruiter.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="https://quiety.themetags.com/assets/img/integations/evernote.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/google-icon.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/slack.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="single-integration">
+                                    <img src="	https://quiety.themetags.com/assets/img/integations/google-analytics.png"
+                                        alt="integration" class="img-fluid">
+                                    <h6 class="mb-0 mt-4">Brand Name</h6>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-subscribe">
+        <div class="container-fluid  px-0">
+            <div class="bg-dark ptb-120 position-relative ">
+                <div class="row justify-content-center mx-0 mx-sm-2">
+                    <div class="col-lg-7 col-md-8">
+                        <div class="text-center position-relative">
+                            <div class="section-heading">
+                                <h5 class="h6 text-warning fw-semibold fs-5">Let's Try! Get Free Support</h5>
+                                <h2 class="text-white fw-bold display-6">Start Your 14-Day Free Trial</h2>
+                                <p class="text-white">We can help you to create your dream website for better business
+                                    revenue.</p>
+                            </div>
+                            <div class="form-block-banner mw-60 m-auto mt-5">
+                                <a href="contact-us.html" class="btn btn-primary">Contact with Us</a>
+                                <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg"
+                                    class="btn btn-link text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn"><i
+                                        class="fas fa-play-circle fa-3x me-2"></i> Watch Demo </a>
+                            </div>
+                            <ul class="nav justify-content-center subscribe-feature-list mt-4 mx-2 text-white">
+                                <li class="nav-item mx-2">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Free 14-day trial</span>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>No credit card
+                                        required</span>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Support 24/7</span>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <span><i class="far fa-check-circle text-primary me-2"></i>Cancel anytime</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light left-5"></div>
+                <div class="bg-circle rounded-circle circle-shape-1 position-absolute bg-warning right-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <!--footer top start-->
+        <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
+        <div class="footer-top text-white  ptb-120">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
+                        <div class="footer-single-col">
+                            <div class="footer-single-col mb-4">
+
+                                <img src="	https://quiety.themetags.com/assets/img/logo-color.png" alt="logo"
+                                    class="img-fluid logo-color">
+                            </div>
+                            <p class="text-secondary">Our latest news, articles, and resources, we will sent to
+                                your inbox weekly.</p>
+
+                            <form class="newsletter-form position-relative d-block d-lg-flex d-md-flex">
+                                <input type="text" class="input-newsletter form-control me-2"
+                                    placeholder="Enter your email" name="email" required="" autocomplete="off">
+                                <input type="submit" value="Subscribe" data-wait="Please wait..."
+                                    class="btn btn-primary mt-3 mt-lg-0 mt-md-0">
+                            </form>
+                            <div class="ratting-wrap mt-4">
+                                <h6 class="mb-1 text-secondary">10/10 Overall rating</h6>
+
+                                <ul class="list-unstyled rating-list list-inline mb-0 small ">
+                                    <li class="list-inline-item"><i class="fas fa-star text-warning fx-1 "></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star text-warning fx-1"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star text-warning fx-1"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star text-warning fx-1"></i></li>
+                                    <li class="list-inline-item"><i class="fas fa-star text-warning fx-1"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                <div class="footer-single-col text-black">
+                                    <h3 class="fs-5 mb-4">Primary Pages</h3>
+                                    <ul class="list-unstyled footer-nav-list mb-lg-0 text-secondary">
+                                        <li class="my-1 "><a href="index.html"
+                                                class="text-decoration-none text-secondary">Home</a></li>
+                                        <li class="my-1 "><a href="about-us.html"
+                                                class="text-decoration-none text-secondary ">About Us</a></li>
+                                        <li class="my-1 "><a href="services.html"
+                                                class="text-decoration-none text-secondary ">Services</a></li>
+                                        <li class="my-1 "><a href="career.html"
+                                                class="text-decoration-none text-secondary">Career</a></li>
+                                        <li class="my-1 "><a href="integrations.html"
+                                                class="text-decoration-none text-secondary">Integrations</a>
+                                        </li>
+                                        <li class="my-1 "><a href="integration-single.html"
+                                                class="text-decoration-none text-secondary my-3">Integration Single</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                <div class="footer-single-col text-black">
+                                    <h3 class="fs-5 mb-4">Pages</h3>
+                                    <ul class="list-unstyled footer-nav-list mb-lg-0">
+
+                                        <li class="my-1 "><a href="pricing.html"
+                                                class="text-secondary text-decoration-none">Pricing</a></li>
+                                        <li class="my-1 "><a href="blog.html"
+                                                class="text-decoration-none text-secondary">Blog</a></li>
+                                        <li class="my-1 "><a href="blog-single.html"
+                                                class="text-decoration-none text-secondary">Blog Details</a></li>
+                                        <li class="my-1 "><a href="contact-us.html"
+                                                class="text-decoration-none text-secondary">Contact</a></li>
+                                        <li class="my-1 "><a href="career-single.html"
+                                                class="text-decoration-none text-secondary">Career Single</a>
+                                        </li>
+                                        <li class="my-1 "><a href="service-single.html"
+                                                class="text-decoration-none text-secondary">Services
+                                                Single</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                <div class="footer-single-col text-black">
+                                    <h3 class="fs-5 mb-4">Template</h3>
+                                    <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                        <li class="my-1 "><a href="contact-us.html"
+                                                class="text-decoration-none text-secondary">Contact</a></li>
+                                        <li class="my-1 "><a href="support.html"
+                                                class="text-decoration-none text-secondary">Support</a></li>
+                                        <li class="my-1 "><a href="support-single.html"
+                                                class="text-decoration-none text-secondary">Support Single</a></li>
+                                        <li class="my-1 "><a href="team.html"
+                                                class="text-decoration-none text-secondary">Our Team</a></li>
+                                        <li class="my-1 "><a href="client-review.html"
+                                                class="text-decoration-none text-secondary">Customer Review</a></li>
+                                        <li class="my-1 "><a href="career-single.html"
+                                                class="text-decoration-none text-secondary">Career Single</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--footer top end-->
+
+        <!--footer bottom start-->
+        <div class="footer-bottom text-white mb-4">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-7 col-lg-7">
+                        <div class="copyright-text">
+                            <p class="mb-lg-0 mb-md-0 text-secondary">© 2021 Quiety Rights Reserved. Designed By <a
+                                    href="https://themetags.com/"
+                                    class="text-decoration-none text-secondary">ThemeTags</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="footer-single-col text-start text-lg-end text-md-end">
+                            <ul class="list-unstyled list-inline footer-social-list mb-0">
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer bottom end-->
+    </footer>
+
+</body>
+
+</html>
